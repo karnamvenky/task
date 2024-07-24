@@ -1,0 +1,33 @@
+# line -34 how do u find a lenth of a string ? -----------------------
+#lenth()
+string1 = input ("enter a string")
+lenth = len(string1)
+print("the lenth of string")
+
+
+#line - 35 write a progrrame to calculate the sum of first 10 natural numbers ?
+num = int(input("enter a number"))
+sum = 0
+for a in range (0,num+1):
+    sum = sum+a 
+print(sum)
+
+
+#line 36 write a programe to read integer and convert into float ? --------
+int_num = int (input)("enter a integer :")
+print(int_num,":",type(int_num))
+flt_num = float(int_num)
+print(flt_num,":",type(flt_num))
+
+
+#line 37 write a program to find greater among two numbers, take input from yhe key
+num1 = eval(input("Enter a number 1 :"))
+num2 = eval(input("Enter a number 2 :")) 
+if num>num2:
+    print("The",num1,"is greater then",num2)
+elif num2==num1:
+    print ("Both are equal")
+else:
+    print("The",num,"is lesser then ",num )
+    
+
